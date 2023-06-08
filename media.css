@@ -6,7 +6,11 @@
     }
 
     #nav{
+        color: white;
         padding: 0 7vw;
+    }
+    #nav h2{
+        color: white;
     }
     #popup {
     z-index: 999999999999;
@@ -50,7 +54,10 @@
     #nav>h2{
         font-size: 8.5vw;
     }
+    #page1{
+        background-color: black;
 
+    }
     #page1_image1 {
     width: 41vw;
     height: 31vh;
@@ -92,7 +99,14 @@
         Line-height: 13vw;
         text-align: center;
         /* background-color: aqua; */
-        color: rgb(15, 15, 15);
+        color: white;
+        
+    }
+    #page1_center_text>h1>span{
+        color: #00EB8F;
+        font-weight: 600;
+        font-family: gilroy;
+        font-style: italic;
     }
 
     #page1_center_text>img {
@@ -115,6 +129,7 @@
     justify-content: center;
 }
     #bit2>h1{
+        color: white;
         font-family: gilroy;
         font-size: 5vw;
         font-weight: 400;
